@@ -94,12 +94,10 @@ img{
 
 footer{
 	width: 100%;
-	background-color: #006266;
+	background-color: #8d8d8d;
 	color: white;
 	text-align: center;
 	padding: 15px 0px;
-	position: fixed;
-
 }
 
 main {
@@ -132,11 +130,24 @@ p,a {
 	
 }
 
+.imgct{
+	filter: blur(5px);
+}
+
+.bg-ct{
+	background-image: url(img/bgct.jpg);
+	background-size: 100%;
+	color: white;
+	filter: blur(3px);
+}
+
+
 #contact{
 	background: url(img/bgct.jpg);
 	background-size: 100%;
 	color: white;
 }
+
 
 .subjudul{
 	text-align: center;
@@ -172,8 +183,8 @@ pp{
 
 center {
 	text-align: center;
-	font-size: 15px;
-	float: center;
+	font-size: 18px;
+	float: ;
 }
 
 .tengah{
@@ -229,15 +240,17 @@ fotoo {
 
 .bagikiri{
 	width: 50%;
-	font-size: 25px;
+	font-size: 16px;
 	text-align: left;
 	float: left;
-	padding-left: 150px;
+	padding-left: 130px;
 }
 
 .bagikanan{
 	width: 50%;
 	font-size: 15px;
-	text-align: left;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 0px;	
 	float: right;
 }
